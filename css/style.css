@@ -27,6 +27,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -38,7 +41,11 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
+  flex-grow: 1;
 }
 
 .content-box-component {
